@@ -63,6 +63,17 @@ footer{
             "center" 1fr
             "left  " /* 指定がなければauto*/
             "right "
-            "footer" 300px;
+            "footer" 150px;
     }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+      grid-template: 
+          "header" 150px
+          "center" 300px
+          "left  " 
+          "right "
+          "footer" 150px;
+  }
 }
